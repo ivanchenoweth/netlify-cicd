@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>CICD testing - development branch</h1>
+      <h1>CICD PoC</h1>
+      <h6>Environment: {process.env.NODE_ENV}</h6>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
